@@ -2,35 +2,19 @@ from datetime import datetime
 import json
 
 now = datetime.now()
+kata = "mas dendra"
+user = input("input",kata)
 
 
-print(now.year)
-print(now.month)
-print(now.day)
-print(now.hour)
-print(now.minute)
-templat = {
-    now.year:{
-        now.month:{
-            now.day:{}
-        },
-        "tootal_1moth":0
-    },
-    "total_1year":0
-}
-with  open("money.json","w") as var:
-    {} 
-def set():
-    sruct = {now.minute:[int(input("uang:")),input("keperluan:")]}
-
-    with  open("money.json","r") as nor:
-        data = json.load(nor)
-    data[now.year][now.month][now.day] = sruct
-    data[now.year][now.moth] = sum(list(map(lambda  ls : x[1],list(data[now.year][now.month][now.day].values()))))
-    print(data)
-    with  open("money.json","w") as var:
-        json.dump(data,var,indent = 4)
-set()        
-        
-        
-        
+if user == "tahun":
+ print("sekarang tahun ",now.year,kata)
+elif userr == "bulan":
+ print("sekarang",user,now.month,kata)
+elif user == "hari":
+ print("sekarang",user,now.day,kata)
+elif user == "mingu":
+ print(now.hour)
+elif user == "menit":
+ print(now.minute)
+else:
+ print("waduh input salah bang den")
