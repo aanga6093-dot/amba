@@ -13,8 +13,8 @@ elif userr == "bulan":
 elif user == "hari":
  print("sekarang",user,now.day,kata)
 elif user == "mingu":
- print(now.hour)
+ print("sekarang",user,now.hour,kata)
 elif user == "menit":
- print(now.minute)
+ print("sekarang",user,now.minute,kata)
 else:
  print("waduh input salah bang den")
