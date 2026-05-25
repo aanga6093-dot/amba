@@ -2,13 +2,13 @@ from datetime import datetime
 import json
 
 now = datetime.now()
-kata = "mas dendra"
+kata = "mas dend"
 user = input("input mas den (hari,bulan,tahun) gitu lah")
 
 
 if user == "tahun":
  print("sekarang tahun ",now.year,kata)
-elif userr == "bulan":
+elif user == "bulan":
  print("sekarang",user,now.month,kata)
 elif user == "hari":
  print("sekarang",user,now.day,kata)
