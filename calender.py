@@ -3,7 +3,7 @@ import json
 
 now = datetime.now()
 kata = "mas dendra"
-user = input("input",kata)
+user = input("input mas den (hari,bulan,tahun) gitu lah")
 
 
 if user == "tahun":
